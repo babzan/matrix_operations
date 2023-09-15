@@ -1,4 +1,4 @@
-#include "matrix.h"
+#include "../headers/matrix.h"
 
 int memoryAllocate(int **matrix, int rows, int cols) {
     matrix = (int **)malloc(sizeof(int *) * rows);

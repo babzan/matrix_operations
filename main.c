@@ -1,4 +1,4 @@
-#include "matrix.h"
+#include "./headers/matrix.h"
 
 int main(int argc, char* argv[]){
     int **matrix1;

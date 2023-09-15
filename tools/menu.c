@@ -1,4 +1,4 @@
-#include "matrix.h"
+#include "../headers/matrix.h"
 
 void menu(){
         printf("Greetings, traveler! In this program you can make some operations on matrices! And here they are:\n");
