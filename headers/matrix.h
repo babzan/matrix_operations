@@ -5,7 +5,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void sum(int **matrix1, int **matrix2, int rows1, int cols1, int rows2, int cols2);
+int **sum(int **matrix1, int **matrix2, int rows, int cols);
 int **sub(int **matrix1, int **matrix2, int rows, int cols);
 void mul(int **matrix1, int **matrix2, int rows1, int cols1, int rows2, int cols2);
 int **transpose(int **matrix, int rows, int cols);
